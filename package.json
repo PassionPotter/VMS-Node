@@ -1,0 +1,36 @@
+{
+  "name": "",
+  "version": "1.0.0",
+  "description": "vms",
+  "scripts": {
+    "start": "node ./app.js",
+    "start:dev": "nodemon ./app.js"
+  },
+  "dependencies": {
+    "async": "^3.2.3",
+    "basic-ftp": "^4.6.6",
+    "crc": "^3.8.0",
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "express-session": "^1.17.1",
+    "imap": "^0.8.19",
+    "log4j": "^1.0.0",
+    "log4js": "^6.3.0",
+    "md5": "^2.3.0",
+    "mysql2": "^2.3.3",
+    "node-bitarray": "^0.1.0",
+    "querystring": "^0.2.1",
+    "request": "^2.88.2",
+    "sequelize": "^6.12.0-beta.1",
+    "sqlite3": "^5.0.2",
+    "ssh2-sftp-client": "^7.2.0",
+    "websocket": "^1.0.34",
+    "ws": "^8.4.0",
+    "xml-parser": "^1.2.1"
+  },
+  "devDependencies": {
+    "ftp": "^0.3.10",
+    "install": "^0.13.0",
+    "nodemon": "^2.0.15"
+  }
+}
